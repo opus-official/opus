@@ -75,7 +75,7 @@ export const caseStudies = [
     shortTitle: "Bridge Chemie exhibition stall",
     description:
       "For DTG 2024 at ICCB Dhaka, Opus planned and executed a custom exhibition stall with modular fabrication, product display zones, optimized traffic flow, and on-site coordination.",
-    img: "/images/case-studies/bridge-chemie-exhibition-stall.svg",
+    img: "/images/case-studies/bridge-chemie-exhibition-stall-photo.svg",
     quote:
       "The stall helped our products stand out and gave visitors a clear, organized brand experience.",
     quoteAuthor: "Bridge Chemie",
@@ -120,6 +120,66 @@ export const caseStudies = [
       "Opus can plan, fabricate, and coordinate branded exhibition spaces that support real visitor movement and product conversations.",
   },
   {
+    id: 6,
+    slug: "bridge-chemie-stall-fabrication-2024",
+    service: "Stall Fabrication",
+    client: "Bridge Chemie",
+    duration: "DTG 2024",
+    date: "2024",
+    metric: "Memorable exhibition experience",
+    tags: [
+      { label: "Stall Fabrication", active: true },
+      { label: "DTG 2024", active: false },
+    ],
+    title: "Designed and executed Bridge Chemie's DTG 2024 stall fabrication.",
+    shortTitle: "Bridge Chemie stall fabrication",
+    description:
+      "For DTG 2024 at International Convention City Bashundhara (ICCB), Dhaka, Opus designed and executed a comprehensive stall fabrication for Bridge Chemie with brand-led visuals, functional layout, product display zones, and optimized visitor flow.",
+    img: "/images/case-studies/bridge-chemie-stall-fabrication-2024.svg",
+    quote:
+      "The stall combined our brand identity with a practical layout that helped visitors engage with our products more easily.",
+    quoteAuthor: "Bridge Chemie",
+    quoteRole: "DTG Exhibition Partner",
+    challengeTitle: "Creating a functional exhibition stall with strong brand presence",
+    challenge:
+      "Bridge Chemie needed a DTG 2024 exhibition stall that could present the brand clearly, support interactive product demonstrations, organize visitor movement, and be assembled efficiently within the venue timeline.",
+    approachTitle: "Combining brand identity, modular fabrication, and visitor flow",
+    approach: [
+      {
+        title: "Custom Stall Design",
+        points: [
+          "Designed a stall layout that reflected Bridge Chemie's brand identity.",
+          "Balanced aesthetic appeal with clear product display and visitor engagement zones.",
+        ],
+      },
+      {
+        title: "Modular Fabrication",
+        points: [
+          "Built modular structures for efficient assembly and dismantling.",
+          "Planned fabrication details around practical exhibition setup requirements.",
+        ],
+      },
+      {
+        title: "On-site Coordination",
+        points: [
+          "Coordinated setup activity to keep delivery aligned with the exhibition schedule.",
+          "Supported final placement of branding elements and product demonstration areas.",
+        ],
+      },
+    ],
+    results: [
+      "Delivered a custom DTG 2024 stall for Bridge Chemie at ICCB, Dhaka.",
+      "Integrated interactive product demonstration areas.",
+      "Created a branded visitor experience with improved traffic flow.",
+      "Supported timely setup through on-site coordination.",
+    ],
+    testimonial:
+      "Opus delivered a stall that was visually aligned with our brand and practical for the exhibition floor. The layout helped visitors move, explore products, and engage with our team.",
+    ctaTitle: "Need a stall that works visually and operationally?",
+    ctaText:
+      "Opus can design, fabricate, and coordinate exhibition stalls that combine brand impact, practical flow, and on-site execution.",
+  },
+  {
     id: 4,
     slug: "omera-lpg-ovc-production",
     service: "Creative Advertising & Content Production",
@@ -135,7 +195,7 @@ export const caseStudies = [
     shortTitle: "Omera LPG OVC production",
     description:
       "Using client-provided footage, Opus handled editing, motion graphics, and final production to shape Omera LPG's event material into a clear, audience-ready brand story.",
-    img: "/images/case-studies/omera-lpg-ovc-production.svg",
+    img: "/images/case-studies/omera-lpg-ovc-production-photo.svg",
     quote:
       "The final OVC turned raw event material into a polished story our audience could follow.",
     quoteAuthor: "Omera LPG",
@@ -180,6 +240,66 @@ export const caseStudies = [
       "Opus can edit, design, animate, and finish content so your event or campaign material is ready for the audience.",
   },
   {
+    id: 7,
+    slug: "phenix-poultry-one-egg-a-day-ovc",
+    service: "Creative Advertising & Content Production",
+    client: "Phenix Poultry",
+    duration: "BPL campaign production",
+    date: "2024",
+    metric: "Healthy nutrition campaign story",
+    tags: [
+      { label: "OVC Production", active: true },
+      { label: "Campaign Storytelling", active: false },
+    ],
+    title: 'Produced Phenix Poultry\'s "One Egg a Day" OVC campaign.',
+    shortTitle: 'Phenix Poultry "One Egg a Day" OVC',
+    description:
+      'Opus Communications produced an OVC for Phenix Poultry\'s "One Egg a Day" campaign featuring players from Rangpur Riders during the BPL tournament, using engaging visuals and storytelling to promote healthy nutrition.',
+    img: "/images/case-studies/phenix-poultry-one-egg-a-day-ovc.svg",
+    quote:
+      "The OVC helped connect the campaign message with a wider audience through sports, nutrition, and strong visual storytelling.",
+    quoteAuthor: "Phenix Poultry",
+    quoteRole: "Campaign Production Partner",
+    challengeTitle: "Turning a nutrition message into an engaging campaign film",
+    challenge:
+      'Phenix Poultry needed an OVC that could promote the "One Egg a Day" message with energy, credibility, and public appeal. The campaign also needed to connect healthy nutrition with the visibility of Rangpur Riders during the BPL tournament.',
+    approachTitle: "Building the OVC around sports, nutrition, and clear storytelling",
+    approach: [
+      {
+        title: "Campaign Direction",
+        points: [
+          'Framed the "One Egg a Day" idea around simple, memorable nutrition communication.',
+          "Used the BPL context and Rangpur Riders presence to make the message more engaging.",
+        ],
+      },
+      {
+        title: "OVC Production",
+        points: [
+          "Produced visual scenes that connected the brand, players, and campaign message.",
+          "Built a polished production flow suitable for audience-facing campaign use.",
+        ],
+      },
+      {
+        title: "Storytelling Finish",
+        points: [
+          "Shaped the final OVC with clear pacing and campaign-focused messaging.",
+          "Prepared the output to support Phenix Poultry's healthy nutrition promotion.",
+        ],
+      },
+    ],
+    results: [
+      'Produced the "One Egg a Day" OVC for Phenix Poultry.',
+      "Featured Rangpur Riders players during the BPL campaign context.",
+      "Presented healthy nutrition through a more engaging visual story.",
+      "Delivered a campaign-ready OVC directed by A.B. Siddiki.",
+    ],
+    testimonial:
+      "The production gave the campaign a strong visual shape and helped present the nutrition message in a way audiences could connect with.",
+    ctaTitle: "Need a campaign film with a clear public message?",
+    ctaText:
+      "Opus can produce OVCs that combine brand storytelling, campaign objectives, and audience-ready visuals.",
+  },
+  {
     id: 5,
     slug: "government-info-video-series",
     service: "Creative Advertising & Content Production",
@@ -195,7 +315,7 @@ export const caseStudies = [
     shortTitle: "Government info video series",
     description:
       "Opus transformed collected footage into a series of development-focused info videos, using graphics and motion graphics to communicate projects such as Padma Bridge, Bangabandhu Satellite, and electrical infrastructure progress.",
-    img: "/images/case-studies/government-info-video-series.svg",
+    img: "/images/case-studies/government-info-video-series-photo.svg",
     quote:
       "The videos helped complex development stories become clearer, more visual, and easier to communicate.",
     quoteAuthor: "Project Communication Team",

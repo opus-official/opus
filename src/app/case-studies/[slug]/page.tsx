@@ -94,7 +94,7 @@ export default async function CaseStudyDetailPage({
           <img
             src={study.img}
             alt={study.title}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full bg-white object-cover"
           />
           <div className="absolute inset-0 bg-[#080e29]/65" />
           <SiteHeader />
@@ -141,7 +141,7 @@ export default async function CaseStudyDetailPage({
             <img
               src={study.img}
               alt={study.shortTitle}
-              className="mb-8 h-[300px] w-full rounded-[22px] object-cover"
+              className="mb-8 h-[300px] w-full rounded-[22px] bg-white object-cover"
             />
             <blockquote className="font-serif text-[30px] leading-[1.15] text-brand-navy-dark">
               &ldquo;{study.quote}&rdquo;
@@ -248,7 +248,7 @@ export default async function CaseStudyDetailPage({
           <img
             src={study.img}
             alt=""
-            className="absolute inset-0 h-full w-full object-cover opacity-25"
+            className="absolute inset-0 h-full w-full bg-white object-cover opacity-25"
           />
           <div className="absolute inset-0 bg-[#080e29]/70" />
           <div className="relative z-10 max-w-[780px]">

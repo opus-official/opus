@@ -56,13 +56,13 @@ function CaseStudyCard({
     >
       <motion.div
         style={isDesktop ? { scale, transformOrigin: "center center" } : undefined}
-        className="relative h-[640px] w-full rounded-[2rem] overflow-hidden shadow-lg md:h-[100vh]"
+        className="relative h-[640px] w-full rounded-[2rem] overflow-hidden bg-white shadow-lg md:h-[100vh]"
       >
         {/* Background Image */}
         <img
           src={study.img}
           alt={study.title}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full bg-white object-cover"
         />
 
         {/* Overlay Gradient */}
@@ -157,7 +157,7 @@ export default function CaseStudies({
 
         {/* Sticky Stacking Cards */}
         <div className="w-full pb-[30px]">
-          {caseStudies.map((study) => (
+          {caseStudies.slice().reverse().map((study) => (
             <CaseStudyCard key={study.id} study={study} />
           ))}
         </div>
