@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import LabelPill from "./LabelPill";
 
 const logos = Array.from({ length: 30 }, (_, index) => `Partners-${String(index + 1).padStart(2, "0")}.svg`);
@@ -23,8 +26,16 @@ export default function TrustedBy() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 w-full">
           {logos.map((logo, index) => {
             return (
-              <div
+              <motion.div
                 key={index}
+                initial={{ opacity: 0, y: 34 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{
+                  duration: 0.55,
+                  delay: Math.min(index * 0.035, 0.45),
+                  ease: [0.22, 1, 0.36, 1],
+                }}
                 className="relative overflow-hidden bg-white rounded-[24px] h-[120px] flex items-center justify-center gap-2 p-3 text-brand-navy-dark md:h-[132px] md:gap-3"
               >
                 <img
@@ -34,7 +45,7 @@ export default function TrustedBy() {
                   loading="lazy"
                   decoding="async"
                 />
-              </div>
+              </motion.div>
             );
           })}
         </div>
