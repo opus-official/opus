@@ -135,6 +135,7 @@ export default function ServicesPageClient() {
                       className="mt-6  text-[16px] font-semibold"
                       text="Start a Project"
                       href="/contact"
+                      delay={0.15}
                     />
                   </div>
                 </div>

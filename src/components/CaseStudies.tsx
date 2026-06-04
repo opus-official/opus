@@ -3,9 +3,8 @@
 import { type ReactNode, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import LabelPill from "./LabelPill";
-import AnimatedButton from "./AnimatedButton";
 import { caseStudies, type CaseStudy } from "@/data/caseStudies";
 
 interface CaseStudiesProps {
@@ -97,11 +96,15 @@ function CaseStudyCard({
           </div>
 
           {/* Button */}
-          <AnimatedButton
-            text="View Case Study"
+          <Link
             href={`/case-studies/${study.slug}`}
-            className="h-[56px] w-full md:w-max p-[8px] pl-[20px] shrink-0 bg-white"
-          />
+            className="group/btn flex h-[56px] min-w-[200px] max-w-full shrink-0 items-center justify-center gap-3 rounded-full bg-white p-[8px] pl-[20px] text-[16px] font-bold text-brand-navy-dark transition-all duration-300 hover:bg-white md:w-max"
+          >
+            View Case Study
+            <span className="ml-2 flex h-10 w-10 items-center justify-center rounded-full bg-brand-navy-dark text-white transition-colors duration-300 group-hover/btn:bg-black">
+              <ArrowRight size={20} className="-rotate-45 transform transition-transform duration-300 group-hover/btn:rotate-0" />
+            </span>
+          </Link>
         </div>
       </motion.div>
     </div>

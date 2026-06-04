@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import LabelPill from "@/components/LabelPill";
+import AnimatedButton from "@/components/AnimatedButton";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Divider from "@/components/Divider";
@@ -151,15 +150,12 @@ export default function AboutPage() {
                 We work with a result-oriented mindset, combining consultation, strategy, design, production, and execution so brands can move from idea to impact with confidence.
               </p>
             </div>
-            <Link
-              href="/#services"
-              className="group mt-4 flex h-[56px] w-full max-w-[230px] items-center justify-center gap-3 rounded-full bg-[#121b60] pl-6 pr-2 text-[16px] font-bold text-white transition-colors hover:bg-black md:w-max"
-            >
-              View Our Services
-              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white transition-transform duration-300 group-hover:rotate-45">
-                <ArrowUpRight size={20} className="text-[#121b60]" />
-              </span>
-            </Link>
+            <AnimatedButton
+              text="View Our Services"
+              href="/services"
+              delay={0.15}
+              className="mt-4"
+            />
           </div>
         </div>
       </section>

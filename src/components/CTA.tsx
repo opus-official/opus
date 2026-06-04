@@ -46,7 +46,7 @@ export default function CTA() {
                   Talk to Opus about branding, campaigns, events, exhibitions, production, or digital marketing support for your next communication challenge.
                 </p>
 
-                <AnimatedButton text="Start a Project"/>
+                <AnimatedButton text="Start a Project" delay={0.15}/>
               </div>
             </motion.div>
           </div>

@@ -71,8 +71,8 @@ export default function ContactPage() {
           <SiteHeader />
 
           <div className="relative z-10 mx-auto flex w-full max-w-[1440px] px-6 pb-16 pt-[120px] md:px-8 md:pb-20 md:pt-[150px] xl:px-12 xl:pt-[170px]">
-            <section className="flex min-h-[650px] max-w-[820px] flex-col justify-center gap-12 text-white">
-              <div className="flex flex-col gap-9">
+            <section className="grid min-h-[650px] w-full items-center gap-12 text-white lg:grid-cols-[minmax(0,0.95fr)_minmax(380px,0.7fr)] lg:gap-16 xl:gap-24">
+              <div className="flex max-w-[820px] flex-col gap-9">
                 <h1 className="font-serif text-[54px] leading-[1.08] text-white md:text-[78px] lg:text-[96px]">
                   Let&apos;s <span className="italic">Start</span> the
                   <br />
@@ -85,7 +85,7 @@ export default function ContactPage() {
                 </p>
               </div>
 
-              <div className="grid max-w-[640px] gap-6">
+              <div className="grid w-full max-w-[640px] gap-6 lg:ml-auto lg:max-w-[520px]">
                 {contactDetails.map((item) => {
                   const Icon = item.icon;
 
