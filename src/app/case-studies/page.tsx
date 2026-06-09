@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import CaseStudies from "@/components/CaseStudies";
-import Testimonials from "@/components/Testimonials";
 import TrustedBy from "@/components/TrustedBy";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -77,8 +76,6 @@ export default function CaseStudiesPage() {
         showViewMore={false}
       />
 
-      <Divider />
-      <Testimonials />
       <Divider />
       <TrustedBy />
       <Divider />

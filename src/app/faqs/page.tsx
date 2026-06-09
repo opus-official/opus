@@ -60,7 +60,7 @@ const faqs = [
   {
     question: "How can we contact Opus?",
     answer:
-      "You can contact Opus Communications at info@opusbd.com or opusbd1@gmail.com, or call +880 1711 387708 and +880 1911 484826.",
+      "You can contact Opus Communications at opusbd1@gmail.com, or call +880 1711 387708 and +880 1911 484826.",
   },
 ];
 

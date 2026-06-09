@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import IntroStats from "@/components/IntroStats";
 import Services from "@/components/Services";
 import CaseStudies from "@/components/CaseStudies";
-import Testimonials from "@/components/Testimonials";
 import OurApproach from "@/components/OurApproach";
 import OurGoal from "@/components/OurGoal";
 import TrustedBy from "@/components/TrustedBy";
@@ -48,8 +47,6 @@ export default function Home() {
       <Services />
       <Divider />
       <CaseStudies />
-      <Divider />
-      <Testimonials />
       <Divider />
       <OurGoal />
       <Divider />

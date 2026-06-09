@@ -79,10 +79,10 @@ export default function SiteHeader() {
         <Link href="/" className="flex items-center gap-4" aria-label="Go to homepage">
           <div className="relative flex h-[50px] w-[100px] shrink-0 items-center justify-center overflow-hidden sm:w-[156px] xl:h-24 xl:w-26">
             <Image
-              src="/logo.svg"
+              src="/logo-white.png"
               alt="Opus Logo"
               fill
-              className="object-contain brightness-0 invert"
+              className="object-contain"
               priority
             />
           </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, PhoneCall } from "lucide-react";
+import { MapPin, PhoneCall } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
@@ -30,11 +30,6 @@ const contactDetails = [
     icon: PhoneCall,
     value: "+880 1711 387708",
     href: "tel:+8801711387708",
-  },
-  {
-    icon: Mail,
-    value: "info@opusbd.com",
-    href: "mailto:info@opusbd.com",
   },
   {
     icon: MapPin,

@@ -13,7 +13,7 @@ export const siteConfig = {
     postalCode: "1219",
     addressCountry: "BD",
   },
-  emails: ["info@opusbd.com", "opusbd1@gmail.com"],
+  emails: ["opusbd1@gmail.com"],
   telephones: ["+8801711387708", "+8801911484826"],
 };
 

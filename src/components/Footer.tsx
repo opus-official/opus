@@ -48,10 +48,10 @@ export default function Footer() {
           >
             <Link href="/" className="relative block h-[58px] w-[150px] overflow-hidden" aria-label="Go to homepage">
               <Image
-                src="/logo.svg"
+                src="/logo-white.png"
                 alt="Opus Logo"
                 fill
-                className="object-contain object-left brightness-0 invert"
+                className="object-contain object-left"
               />
             </Link>
             <p className="text-[15px] leading-[1.6] text-white/90 max-w-[340px] font-medium">
@@ -108,7 +108,6 @@ export default function Footer() {
             <motion.ul variants={listContainer} className="flex flex-col gap-4">
               <motion.li variants={fadeUp} className="text-[15px] font-medium text-white/90 hover:text-white transition-colors cursor-pointer">+880 1711 387708</motion.li>
               <motion.li variants={fadeUp} className="text-[15px] font-medium text-white/90 hover:text-white transition-colors cursor-pointer">+880 1911 484826</motion.li>
-              <motion.li variants={fadeUp} className="break-words text-[15px] font-medium text-white/90 hover:text-white transition-colors cursor-pointer">info@opusbd.com</motion.li>
               <motion.li variants={fadeUp} className="break-words text-[15px] font-medium text-white/90 hover:text-white transition-colors cursor-pointer">opusbd1@gmail.com</motion.li>
               <motion.li variants={fadeUp} className="break-words text-[15px] font-medium text-white/90 hover:text-white transition-colors cursor-pointer">www.opusbd.com</motion.li>
               <motion.li variants={fadeUp} className="text-[15px] font-medium text-white/90 leading-relaxed mt-2">
